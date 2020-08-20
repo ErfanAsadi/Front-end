@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"), url("../fonts/Vazir.woff2") format("woff2"), url("../fonts/Vazir.woff") format("woff"), url("../fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+body {
+  direction: rtl !important;
+  text-align: right !important;
+  font-family: "Vazir" !important;
+  line-height: 1.6;
+  background: #fff;
+}
+
+p {
+  text-align: justify;
+}
+
+.items>div:nth-child(odd) {
+  background-color: #bbb
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.wp-pt {
+  padding-top: 70px
+}
+
+#header {
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url("../images/header.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+#img-1 {
+  background: url("../images/img-1.jpg") no-repeat center center/cover;
+  height: 400px;
+}
+
+#img-2 {
+  background: url("../images/img-2.jpg") no-repeat center center/cover;
+  height: 400px;
+}
+
+#img-3 {
+  background: url("../images/img-1.jpg") no-repeat center center/cover;
+  height: 200px;
+}
+
+#img-4 {
+  background: url("../images/img-2.jpg") no-repeat center center/cover;
+  height: 200px;
+}
